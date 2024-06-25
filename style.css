@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: green; */
+    font-size: 13px;
+    gap: 18px;
+    margin-top: 10px;
+    margin-right: 23px;
+}
+
+header .apps {
+    width: 24px;
+    height: 24px;
+}
+
+header .links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+header .login {
+    text-decoration: none;
+}
+
+header .btbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 12px;
+    background-color: #0D65D9;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+}
+
+.btbutton:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filho {
+    /* background-color: green; */
+    width: 580px;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.filho .logo {
+    margin-top: 40px;
+    margin-left: 155px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex;
+    background-color: white;
+    margin-top: 25px;
+    height: 48px;
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 25px;
+}
+
+.search-bar:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 8px;
+}
+
+.lupaa {
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.lupaa .lupa {
+    width: 22px;
+}
+
+.pesquisa {
+    display: flex;
+    margin-left: 10px;
+    width: 403px;
+    height: 100%;
+}
+
+.pesquisa .pesquisar {
+    width: 100%;
+    border-color: transparent;
+    outline: none;
+    resize: none;
+    font-size: 17px;
+    justify-content: center;
+    margin-top: 12px;
+    overflow-y: hidden;
+}
+
+.resto {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.resto .items {
+    width: 25px;
+    height: 25px;
+}
+
+.olamundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.olamundo .tematica {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(245, 245, 245);
+}
+
+.tematica:hover {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 9px 14px;
+}
+
